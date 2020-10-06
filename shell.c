@@ -20784,10 +20784,6 @@ int SQLITE_CDECL wmain(int argc, wchar_t **wargv){
   char **argvToFree = 0;
   int argcToFree = 0;
 #endif
-printf("Hello World\n");
-    int a = 0;
-    a++;
-    printf("a: %i", a);
   setBinaryMode(stdin, 0);
   setvbuf(stderr, 0, _IONBF, 0); /* Make sure stderr is unbuffered */
   stdin_is_interactive = isatty(0);

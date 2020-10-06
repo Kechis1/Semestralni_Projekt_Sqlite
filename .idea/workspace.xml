@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="build" targetName="shell" />
+      <config projectName="build" targetName="tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,17 +13,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17d81735-5947-4760-a375-7107be885c6c" name="Default Changelist" comment="" />
+    <list default="true" id="17d81735-5947-4760-a375-7107be885c6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/myTest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/shell.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hmR5rcxFkkqZDD4IelTOku7G4E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +44,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.tests">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -44,6 +55,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="build" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="build" RUN_TARGET_NAME="tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.shell" />
+      <item itemvalue="CMake Application.tests" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +81,12 @@
       <workItem from="1600614102400" duration="181000" />
       <workItem from="1600614341455" duration="3072000" />
       <workItem from="1600617741631" duration="71000" />
-      <workItem from="1600617832651" duration="1276000" />
+      <workItem from="1600617832651" duration="1616000" />
+      <workItem from="1600728753345" duration="13000" />
+      <workItem from="1600728981456" duration="44000" />
+      <workItem from="1600756442302" duration="691000" />
+      <workItem from="1601382118567" duration="15980000" />
+      <workItem from="1601459672424" duration="13828000" />
     </task>
     <servers />
   </component>
@@ -71,53 +101,467 @@
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state x="2104" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617578991" />
+    <state x="612" y="106" key="#xdebugger.XInspectDialog" timestamp="1602002806830">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state x="612" y="106" key="#xdebugger.XInspectDialog/0.25.1440.819@0.25.1440.819" timestamp="1602002806830" />
     <state x="2514" y="457" width="528" height="190" key="Github.ShareDialog" timestamp="1600619196885">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state x="2514" y="457" width="528" height="190" key="Github.ShareDialog/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619196885" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1600619083448">
+    <state x="2457" y="171" key="Github.UntrackedFilesDialog" timestamp="1600619203396">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083448" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617726073" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1600619083447">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state x="2457" y="171" key="Github.UntrackedFilesDialog/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619203395" />
+    <state width="1398" height="356" key="GridCell.Tab.0.bottom" timestamp="1602003236857">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083447" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617726071" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1600619083446">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1600769032505" />
+    <state width="1398" height="356" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1602003236857" />
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254823" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.1920.1055@0.25.1680.963" timestamp="1601905633580" />
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999256850" />
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000483473" />
+    <state width="1878" height="340" key="GridCell.Tab.0.bottom/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805195" />
+    <state width="1878" height="343" key="GridCell.Tab.0.bottom/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402554729" />
+    <state width="1398" height="356" key="GridCell.Tab.0.center" timestamp="1602003236856">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083446" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617726071" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1600619083447">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1600769032504" />
+    <state width="1398" height="356" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1602003236856" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254822" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.1920.1055@0.25.1680.963" timestamp="1601905633578" />
+    <state width="1878" height="299" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999256849" />
+    <state width="1878" height="299" key="GridCell.Tab.0.center/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000483472" />
+    <state width="1878" height="340" key="GridCell.Tab.0.center/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805192" />
+    <state width="1878" height="343" key="GridCell.Tab.0.center/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402554728" />
+    <state width="1398" height="356" key="GridCell.Tab.0.left" timestamp="1602003236855">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083447" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617726072" />
-    <state width="1878" height="253" key="GridCell.Tab.1.bottom" timestamp="1600619083322">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1600769032504" />
+    <state width="1398" height="356" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1602003236855" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254821" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.1920.1055@0.25.1680.963" timestamp="1601905633577" />
+    <state width="1878" height="299" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999256848" />
+    <state width="1878" height="299" key="GridCell.Tab.0.left/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000483472" />
+    <state width="1878" height="340" key="GridCell.Tab.0.left/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805191" />
+    <state width="1878" height="343" key="GridCell.Tab.0.left/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402554728" />
+    <state width="1398" height="356" key="GridCell.Tab.0.right" timestamp="1602003236857">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="253" key="GridCell.Tab.1.bottom/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083322" />
-    <state width="1878" height="253" key="GridCell.Tab.1.center" timestamp="1600619083322">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1600769032504" />
+    <state width="1398" height="356" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1602003236857" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254822" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.1920.1055@0.25.1680.963" timestamp="1601905633579" />
+    <state width="1878" height="299" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999256850" />
+    <state width="1878" height="299" key="GridCell.Tab.0.right/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000483473" />
+    <state width="1878" height="340" key="GridCell.Tab.0.right/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805193" />
+    <state width="1878" height="343" key="GridCell.Tab.0.right/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402554729" />
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom" timestamp="1602003236858">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="253" key="GridCell.Tab.1.center/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083322" />
-    <state width="1878" height="253" key="GridCell.Tab.1.left" timestamp="1600619083321">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.1.bottom/0.25.1440.817@0.25.1440.817" timestamp="1600769032506" />
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom/0.25.1440.819@0.25.1440.819" timestamp="1602003236858" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254818" />
+    <state width="1878" height="299" key="GridCell.Tab.1.bottom/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999258520" />
+    <state width="1878" height="299" key="GridCell.Tab.1.bottom/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000484164" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805198" />
+    <state width="1878" height="343" key="GridCell.Tab.1.bottom/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402556486" />
+    <state width="1398" height="356" key="GridCell.Tab.1.center" timestamp="1602003236857">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="253" key="GridCell.Tab.1.left/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083321" />
-    <state width="1878" height="253" key="GridCell.Tab.1.right" timestamp="1600619083322">
-      <screen x="1680" y="25" width="1920" height="1055" />
+    <state width="1398" height="269" key="GridCell.Tab.1.center/0.25.1440.817@0.25.1440.817" timestamp="1600769032505" />
+    <state width="1398" height="356" key="GridCell.Tab.1.center/0.25.1440.819@0.25.1440.819" timestamp="1602003236857" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254816" />
+    <state width="1878" height="299" key="GridCell.Tab.1.center/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999258519" />
+    <state width="1878" height="299" key="GridCell.Tab.1.center/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000484163" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805197" />
+    <state width="1878" height="343" key="GridCell.Tab.1.center/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402556485" />
+    <state width="1398" height="356" key="GridCell.Tab.1.left" timestamp="1602003236857">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1878" height="253" key="GridCell.Tab.1.right/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600619083322" />
+    <state width="1398" height="269" key="GridCell.Tab.1.left/0.25.1440.817@0.25.1440.817" timestamp="1600769032505" />
+    <state width="1398" height="356" key="GridCell.Tab.1.left/0.25.1440.819@0.25.1440.819" timestamp="1602003236857" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254816" />
+    <state width="1878" height="299" key="GridCell.Tab.1.left/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999258519" />
+    <state width="1878" height="299" key="GridCell.Tab.1.left/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000484163" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805196" />
+    <state width="1878" height="343" key="GridCell.Tab.1.left/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402556484" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right" timestamp="1602003236858">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="269" key="GridCell.Tab.1.right/0.25.1440.817@0.25.1440.817" timestamp="1600769032505" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right/0.25.1440.819@0.25.1440.819" timestamp="1602003236858" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601409254817" />
+    <state width="1878" height="299" key="GridCell.Tab.1.right/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601999258520" />
+    <state width="1878" height="299" key="GridCell.Tab.1.right/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1602000484164" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406805197" />
+    <state width="1878" height="343" key="GridCell.Tab.1.right/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402556485" />
     <state x="2149" y="188" key="SettingsEditor" timestamp="1600617589672">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state x="2149" y="188" key="SettingsEditor/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617589672" />
-    <state x="2305" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1600617656660">
+    <state x="1781" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601997351703">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
+    <state x="1781" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601996438209" />
+    <state x="1781" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601997351703" />
+    <state x="2340" y="260" width="600" height="522" key="find.popup" timestamp="1601406871792">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2340" y="260" width="600" height="522" key="find.popup/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601406871792" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1601395985818">
+      <screen x="1680" y="25" width="1920" height="993" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601395985818" />
+    <state x="2305" y="259" width="670" height="677" key="search.everywhere.popup" timestamp="1601997942240">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2305" y="245" width="670" height="637" key="search.everywhere.popup/0.25.1680.1025/1680.25.1920.993@1680.25.1920.993" timestamp="1601394744601" />
+    <state x="2305" y="259" width="670" height="677" key="search.everywhere.popup/0.25.1680.963/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601997942240" />
     <state x="2305" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617656660" />
+    <state x="2305" y="259" width="670" height="677" key="search.everywhere.popup/0.25.1680.965/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601407577995" />
+    <state x="2305" y="259" width="670" height="677" key="search.everywhere.popup/0.25.1680.966/1680.25.1920.1055@1680.25.1920.1055" timestamp="1601402114836" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>128276</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>136186</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>138766</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>146404</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147595</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147729</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147767</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147807</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147856</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147892</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>147905</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148228</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148466</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148654</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148732</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148799</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148833</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148861</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>148952</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149040</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149327</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149812</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149829</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149867</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149890</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149907</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149910</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>149939</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150038</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150019</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150052</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150062</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150071</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150074</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150078</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150093</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150116</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150145</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150268</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>150293</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>167472</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>168788</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>168899</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>168911</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>168923</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>168940</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172147</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172166</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172172</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172252</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172314</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>172395</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>173561</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>177276</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>177282</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>188200</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>190463</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>190499</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>194320</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>194330</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>194337</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>201805</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>202545</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>223974</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>224044</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>230132</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sqlite3.c</url>
+          <line>230871</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
