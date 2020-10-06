@@ -11,7 +11,7 @@
 int main() {
     sqlite3 *db;
     int rc;
-    char *zDbName = "/Users/danielbill/sqlite/databases/users.db";
+    char *zDbName = "/Users/danielbill/sqlite/databases/test.db";
     printf("open connection\n");
     rc = sqlite3_open_v2(zDbName, &db, SQLITE_OPEN_READWRITE, NULL);
     if (rc != SQLITE_OK) {
@@ -21,7 +21,11 @@ int main() {
     sqlite3_stmt *pStmt;
     // jake predmety studenti studoval v roce 2010
     rc = sqlite3_prepare_v2(db,
-                            "SELECT * FROM users WHERE name = 'Maria';",
+                            "Select stt.jmeno, prt.jmeno, ste.rok, ste.body\n"
+                            "FROM student stt\n"
+                            "JOIN studuje ste on stt.sID = ste.sID\n"
+                            "JOIN predmet prt on ste.pID = prt.pID\n"
+                            "where ste.rok = 2010\n",
                             -1, &pStmt, NULL);
     if (rc != SQLITE_OK) {
         fprintf(stderr, "sqlite3_prepare_v2() returns %d\n", rc);

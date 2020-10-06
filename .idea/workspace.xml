@@ -14,10 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d81735-5947-4760-a375-7107be885c6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/myTest.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/shell.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/myTest.c" beforeDir="false" afterPath="$PROJECT_DIR$/tests/myTest.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +83,16 @@
       <workItem from="1600728981456" duration="44000" />
       <workItem from="1600756442302" duration="691000" />
       <workItem from="1601382118567" duration="15980000" />
-      <workItem from="1601459672424" duration="13828000" />
+      <workItem from="1601459672424" duration="13921000" />
     </task>
+    <task id="LOCAL-00001" summary="created test">
+      <created>1602015737640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602015737640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.properties" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created test" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2104" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600617578991">
@@ -105,6 +114,10 @@
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="612" y="106" key="#xdebugger.XInspectDialog/0.25.1440.819@0.25.1440.819" timestamp="1602002806830" />
+    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1602015737238">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.819@0.25.1440.819" timestamp="1602015737238" />
     <state x="2514" y="457" width="528" height="190" key="Github.ShareDialog" timestamp="1600619196885">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
@@ -201,6 +214,10 @@
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state x="2149" y="188" key="SettingsEditor/0.25.1680.964/1680.25.1920.1055@1680.25.1920.1055" timestamp="1600617589672" />
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2" timestamp="1602015740150">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.819@0.25.1440.819" timestamp="1602015740150" />
     <state x="1781" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601997351703">
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
