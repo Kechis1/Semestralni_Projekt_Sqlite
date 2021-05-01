@@ -15,4 +15,4 @@ add_executable(shell
 add_executable(tests
         sqlite3.c
         sqlite3.h
-        tests/myTest.c)
+        "tests/planTest.c")
